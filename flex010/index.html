@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .conteiner {
+            display: flex;
+            background-color: lightsalmon;
+            
+            
+        }
+
+        .itens {
+            background-color: lightblue;
+            text-align: center;
+            border: 1px solid black;
+            flex-basis: 200px;
+            
+            
+            
+        }
+
+        #item1 {
+            flex-grow: 1;
+            flex-shrink: 0 ;
+            
+        }
+        #item2 {
+            flex-grow: 1;
+            flex-basis: 300px;
+            flex-shrink: 1;
+            
+        }
+        #item3 {
+            flex-grow: 1;
+            flex-shrink: 3;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="itens" id="item1">menu</div>
+        <div class="itens" id="item2">titulo da pagina</div>
+        <div class="itens" id="item3">fodase</div>
+        
+    </div>
+</body>
+</html>
