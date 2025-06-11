@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .conteiner {
+            display: flex;
+            background-color: lightsalmon;
+            flex-flow: row wrap;
+            
+        }
+
+        .itens {
+            background-color: lightblue;
+            text-align: center;
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        #i1 {
+            order: 0;
+        }
+        #i2 {
+            order: -2;
+        }
+        #i3 {
+            order: 4;
+        }
+        #i4 {
+            order: 3;
+        }
+        #i5 {
+            order: 7;
+        }
+        #i6 {
+            order: 1;
+        }
+        #i7 {
+            order: 2;
+        }
+        #i8 {
+            order: 2;
+        }
+        #i9 {
+            order: 6;
+        }
+        #i10 {
+            order: -4;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="itens" id="i1">A</div>
+        <div class="itens" id="i2">B</div>
+        <div class="itens" id="i3">C</div>
+        <div class="itens" id="i4">D</div>
+        <div class="itens" id="i5">E</div>
+        <div class="itens" id="i6">F</div>
+        <div class="itens" id="i7">G</div>
+        <div class="itens" id="i8">H</div>
+        <div class="itens" id="i9">I</div>
+        <div class="itens" id="i10">J</div>
+    </div>
+</body>
+</html>
